@@ -1,0 +1,26 @@
+<div class='top-page-header'>
+  <%= image_tag "logo.png", class:"top-page-icon" %>
+</div>
+
+<%# リスト一覧 %>
+<div class='item_contents'>
+  <h1 class='title'>リスト一覧</h1>
+  <ul class='item-lists'>
+    <% @items.each do |item| %>
+      <li class='list'>
+        
+          <div class='item_content'>
+            <div class='item-name'>
+              <%= item.item %>
+            </div>
+            <div class='item-stock'>
+              在庫<%= item.stock %>
+            </div>
+            <div class='item-add'>＋追加</div>
+          </div>
+       
+      </li>
+    <% end %>
+  </ul>
+</div>
+<%# リスト一覧 %>

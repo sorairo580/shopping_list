@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="8">
     <diagram name="ユーザー登録画面" id="zmEW1MNF1fKw0Rp0QeNB">
-        <mxGraphModel dx="566" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="480" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ypFZUAmq-SKEU5bwY6kl-0"/>
                 <mxCell id="ypFZUAmq-SKEU5bwY6kl-1" parent="ypFZUAmq-SKEU5bwY6kl-0"/>
@@ -35,7 +35,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="トップページ" id="W9CxciX2xQLLHHnvsoW7">
-        <mxGraphModel dx="1050" dy="534" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="480" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -64,7 +64,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="マイページ" id="VppGkzJ6n2x8L3CLEcEk">
-        <mxGraphModel dx="566" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="480" dy="519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="6XWAGZCyaLeB7f1AVeMT-0"/>
                 <mxCell id="6XWAGZCyaLeB7f1AVeMT-1" parent="6XWAGZCyaLeB7f1AVeMT-0"/>
