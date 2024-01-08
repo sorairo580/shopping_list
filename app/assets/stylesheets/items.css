@@ -6,20 +6,20 @@
   flex-direction: column;
 }
 
-.buy_list {
+.buy-list {
   padding-left: 3vw;
   font-size: 18px;
   font-weight: 200;
 }
 
-.buy_item {
+.buy-item {
   padding-left: 3vw;
   font-size: 18px;
   font-weight: 200;
 }
 
 /* リスト一覧 */
-.item_contents {
+.item-contents {
   padding-left: 2vw;
   font-size: 18px;
   font-weight: 200;
@@ -32,7 +32,7 @@
   font-size: large;
 }
 
-.item_lists {
+.item-lists {
   font-size: 18px;
   display: flex;
   justify-content: flex-start;
@@ -47,26 +47,27 @@
   justify-content: space-between;
 }
 
-.item_content {
+.item-content {
   width: 120px;
 }
 
-.item_name {
+.item-name {
   display: flex;
   justify-content: center;
   color: blue;
 }
 
-.item_stock {
+.item-stock {
   display: flex;
   justify-content: center;
   color: blue;
 }
 
-.item_add {
+.item-add-btn {
   display: flex;
   justify-content: center;
   color: red;
+  border: 1px solid red;
 }
 
 /* * {
