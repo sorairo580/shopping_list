@@ -2,23 +2,26 @@
   <%= image_tag "logo.png", class:"top-page-icon" %>
 </div>
 
+<%# 買うもの一覧 %>
+<div class='buy_list'>買うもの一覧</div>
+  <div class='buy_item'>牛乳</div>
+<%# 買うもの一覧 %>
+
 <%# リスト一覧 %>
 <div class='item_contents'>
-  <h1 class='title'>リスト一覧</h1>
-  <ul class='item-lists'>
+  <h1 class='lists'>リスト一覧</h1>
+  <ul class='item_lists'>
     <% @items.each do |item| %>
       <li class='list'>
-        
-          <div class='item_content'>
-            <div class='item-name'>
-              <%= item.item %>
-            </div>
-            <div class='item-stock'>
-              在庫<%= item.stock %>
-            </div>
-            <div class='item-add'>＋追加</div>
+        <div class='item_content'>
+          <div class='item_name'>
+            <%= item.item %>
           </div>
-       
+          <div class='item_stock'>
+            在庫 <%= item.stock %>
+          </div>
+          <div class='item_add'>＋追加</div>
+        </div>
       </li>
     <% end %>
   </ul>

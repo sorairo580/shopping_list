@@ -1,42 +1,72 @@
 /* トップページ */
 .top-page-header {
-  width: 70vw;
-  padding: 2vh 15vw;
+  width: 100%;
+  padding: 2vh;
   display: flex;
   flex-direction: column;
 }
 
-.item_contents {
-  padding-left: 15vw;
+.buy_list {
+  padding-left: 3vw;
   font-size: 18px;
   font-weight: 200;
 }
 
-.title {
+.buy_item {
+  padding-left: 3vw;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+/* リスト一覧 */
+.item_contents {
+  padding-left: 2vw;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.lists {
+  padding-left: 1vw;
   color: rgb(64, 226, 43);
   font-weight: 300;
   font-size: large;
 }
 
-.list {
+.item_lists {
   font-size: 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
   width: 100%;
-  padding: 1vh 0;
+}
+
+.list {
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .item_content {
-  display: flex;
+  width: 120px;
 }
 
 .item_name {
-  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  color: blue;
 }
 
 .item_stock {
-  padding-right: 40px;
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+.item_add {
+  display: flex;
+  justify-content: center;
+  color: red;
 }
 
 /* * {
