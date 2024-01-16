@@ -1,22 +1,23 @@
 window.addEventListener('load', function(){
 
-  const pullDownButtons = document.querySelectorAll("#item-add")
-
-  for (var i = 0; i < pullDownButtons.length; i++) {
-    pullDownButtons[i].addEventListener('click', function() {
-        // イベントの処理
-        console.log('Button Clicked');
-    });
-  }
-  // input.addEventListener('change', function(){
-  //   let inputValue = parseFloat(input.value); 
-  //   if (!isNaN(inputValue)) { 
-  //     let taxPrice = inputValue * 0.1; 
-  //     taxPrice = Math.floor(taxPrice); 
-  //     taxSpan.textContent = taxPrice;
-  //     let profit = inputValue - taxPrice;
-  //     profit = Math.floor(profit); 
-  //     profitSpan.textContent = profit;
-  //   } 
-  // })
+  const submit = document.getElementById("item-add");
+  submit.addEventListener("click", (e) => {
+    e.preventDefault();
+    // const form = document.getElementById("item-name");
+    // const formData = new FormData(form);
+    // const XHR = new XMLHttpRequest();
+    // XHR.open("POST", "/posts", true);
+    // XHR.responseType = "json";
+    // XHR.send(formData);
+    // XHR.onload = () => {
+    //   if (XHR.status != 200) {
+    //     alert(`Error ${XHR.status}: ${XHR.statusText}`);
+    //     return null;
+    //   };
+    //   const list = document.getElementById("list");
+    //   const formText = document.getElementById("content");
+    //   list.insertAdjacentHTML("afterend", buildHTML(XHR));
+    //   formText.value = "";
+    // };
+ });
 })

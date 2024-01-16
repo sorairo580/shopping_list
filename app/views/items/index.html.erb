@@ -4,7 +4,10 @@
 
 <%# 買うもの一覧 %>
 <div class='buy-list'>買うもの一覧</div>
-  <div class='buy-item'>牛乳</div>
+  <div class='buy-item'>
+  <%#= link_to @item.name, items_path(item.id), class: :buy-item %>
+  牛乳
+  </div>
 <%# 買うもの一覧 %>
 
 <%# リスト一覧 %>
@@ -14,16 +17,19 @@
     <% @items.each do |item| %>
       <li class='list'>
         <div class='item-content'>
-          <div class='item-name'>
+          <div class='item-name', id: "item-name">
             <%= item.item %>
           </div>
           <div class='item-stock'>
             在庫 <%= item.stock %>
           </div>
-          <div class='item-add-btn' id='item-add'>＋追加</div>
+          <div class='item-add-btn'>
+            <%= button_to '追加', {controller: 'items', action: 'create'}, {method: :post, id: "item-add" }%>
+          </div>
         </div>
       </li>
     <% end %>
   </ul>
 </div>
 <%# リスト一覧 %>
+
